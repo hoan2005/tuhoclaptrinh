@@ -1,0 +1,62 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(238, 238, 238);
+}
+.phandau {
+  width: calc(100vw-20px);
+  background-color: rgba(198, 198, 190, 0.2);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+}
+#logo {
+  width: 10vw;
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: bold;
+  font-style: normal;
+}
+#logo > a {
+  background: linear-gradient(
+    45deg,
+    #ff8000,
+    #0000ff
+  ); /* Gradient hình quạt từ đỏ sang xanh dương qua xanh lá */
+  -webkit-background-clip: text; /* Cắt nền gradient vào văn bản */
+  -webkit-text-fill-color: transparent; /* Làm cho màu chữ gốc trong suốt */
+  background-clip: text; /* Hỗ trợ cho các trình duyệt khác ngoài WebKit */
+  color: transparent;
+  /* Đảm bảo chữ không có màu nền mặc định */
+}
+#lienket {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#lienket > a {
+  color: red;
+  font-size: 1.3rem;
+  text-decoration: none;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+}
+#loginout {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#loginout > button {
+  width: 200px;
+  padding: 5px;
+  font-size: 1.3rem;
+  background: linear-gradient(45deg, #ff8000, #0000ff);
+  border-radius: 10px;
+}
+#phanchinh {
+  width: calc(100vw-20px);
+  height: 900px;
+  background-image: url("/web_baitap/web_baitap/image/anhnen.jpg");
+}
